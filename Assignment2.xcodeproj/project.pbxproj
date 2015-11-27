@@ -14,6 +14,17 @@
 		0129533D1BFF45D1003413D7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0129533C1BFF45D1003413D7 /* Images.xcassets */; };
 		012953401BFF45D1003413D7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0129533E1BFF45D1003413D7 /* LaunchScreen.xib */; };
 		0129534C1BFF45D1003413D7 /* Assignment2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0129534B1BFF45D1003413D7 /* Assignment2Tests.swift */; };
+		012953561BFF5545003413D7 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012953551BFF5545003413D7 /* Cell.swift */; };
+		012953581C0016C2003413D7 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012953571C0016C2003413D7 /* Model.swift */; };
+		0129535A1C005705003413D7 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012953591C005705003413D7 /* MenuViewController.swift */; };
+		0129535C1C006CB9003413D7 /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0129535B1C006CB9003413D7 /* ItemViewController.swift */; };
+		0129535E1C00728A003413D7 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0129535D1C00728A003413D7 /* CartViewController.swift */; };
+		012953631C0077D3003413D7 /* Assignment2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 012953611C0077D3003413D7 /* Assignment2.xcdatamodeld */; };
+		016F3B0B1C00973B005D3A81 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016F3B0A1C00973B005D3A81 /* HomeViewController.swift */; };
+		01E8EADA1C0161AD000A9E2A /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E8EAD91C0161AD000A9E2A /* Item.swift */; };
+		01E8EADC1C016BCB000A9E2A /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E8EADB1C016BCB000A9E2A /* SwiftyJSON.swift */; };
+		01E8EADE1C034141000A9E2A /* CheckoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E8EADD1C034141000A9E2A /* CheckoutViewController.swift */; };
+		01E8EAE01C03469D000A9E2A /* CheckoutCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E8EADF1C03469D000A9E2A /* CheckoutCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +49,17 @@
 		012953451BFF45D1003413D7 /* Assignment2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Assignment2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0129534A1BFF45D1003413D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0129534B1BFF45D1003413D7 /* Assignment2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment2Tests.swift; sourceTree = "<group>"; };
+		012953551BFF5545003413D7 /* Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		012953571C0016C2003413D7 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		012953591C005705003413D7 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		0129535B1C006CB9003413D7 /* ItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
+		0129535D1C00728A003413D7 /* CartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		012953621C0077D3003413D7 /* Assignment2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Assignment2.xcdatamodel; sourceTree = "<group>"; };
+		016F3B0A1C00973B005D3A81 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		01E8EAD91C0161AD000A9E2A /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		01E8EADB1C016BCB000A9E2A /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = "../../../Downloads/SwiftyJSON-2.2.0/Source/SwiftyJSON.swift"; sourceTree = "<group>"; };
+		01E8EADD1C034141000A9E2A /* CheckoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckoutViewController.swift; sourceTree = "<group>"; };
+		01E8EADF1C03469D000A9E2A /* CheckoutCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckoutCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,12 +101,22 @@
 		012953301BFF45D1003413D7 /* Assignment2 */ = {
 			isa = PBXGroup;
 			children = (
+				01E8EADB1C016BCB000A9E2A /* SwiftyJSON.swift */,
 				012953331BFF45D1003413D7 /* AppDelegate.swift */,
 				012953351BFF45D1003413D7 /* MasterViewController.swift */,
 				012953371BFF45D1003413D7 /* DetailViewController.swift */,
+				012953591C005705003413D7 /* MenuViewController.swift */,
 				012953391BFF45D1003413D7 /* Main.storyboard */,
+				01E8EADD1C034141000A9E2A /* CheckoutViewController.swift */,
+				01E8EADF1C03469D000A9E2A /* CheckoutCell.swift */,
+				016F3B0A1C00973B005D3A81 /* HomeViewController.swift */,
+				0129535D1C00728A003413D7 /* CartViewController.swift */,
+				0129535B1C006CB9003413D7 /* ItemViewController.swift */,
+				012953551BFF5545003413D7 /* Cell.swift */,
+				012953571C0016C2003413D7 /* Model.swift */,
 				0129533C1BFF45D1003413D7 /* Images.xcassets */,
 				0129533E1BFF45D1003413D7 /* LaunchScreen.xib */,
+				012953611C0077D3003413D7 /* Assignment2.xcdatamodeld */,
 				012953311BFF45D1003413D7 /* Supporting Files */,
 			);
 			path = Assignment2;
@@ -93,6 +125,7 @@
 		012953311BFF45D1003413D7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				01E8EAD91C0161AD000A9E2A /* Item.swift */,
 				012953321BFF45D1003413D7 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -215,7 +248,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0129535C1C006CB9003413D7 /* ItemViewController.swift in Sources */,
+				01E8EADE1C034141000A9E2A /* CheckoutViewController.swift in Sources */,
+				012953581C0016C2003413D7 /* Model.swift in Sources */,
+				01E8EAE01C03469D000A9E2A /* CheckoutCell.swift in Sources */,
+				0129535A1C005705003413D7 /* MenuViewController.swift in Sources */,
+				01E8EADC1C016BCB000A9E2A /* SwiftyJSON.swift in Sources */,
 				012953381BFF45D1003413D7 /* DetailViewController.swift in Sources */,
+				0129535E1C00728A003413D7 /* CartViewController.swift in Sources */,
+				016F3B0B1C00973B005D3A81 /* HomeViewController.swift in Sources */,
+				01E8EADA1C0161AD000A9E2A /* Item.swift in Sources */,
+				012953561BFF5545003413D7 /* Cell.swift in Sources */,
+				012953631C0077D3003413D7 /* Assignment2.xcdatamodeld in Sources */,
 				012953361BFF45D1003413D7 /* MasterViewController.swift in Sources */,
 				012953341BFF45D1003413D7 /* AppDelegate.swift in Sources */,
 			);
@@ -347,6 +391,7 @@
 				INFOPLIST_FILE = Assignment2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -357,6 +402,7 @@
 				INFOPLIST_FILE = Assignment2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -413,6 +459,7 @@
 				012953511BFF45D1003413D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		012953521BFF45D1003413D7 /* Build configuration list for PBXNativeTarget "Assignment2Tests" */ = {
 			isa = XCConfigurationList;
@@ -421,8 +468,22 @@
 				012953541BFF45D1003413D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		012953611C0077D3003413D7 /* Assignment2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				012953621C0077D3003413D7 /* Assignment2.xcdatamodel */,
+			);
+			currentVersion = 012953621C0077D3003413D7 /* Assignment2.xcdatamodel */;
+			path = Assignment2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 012953261BFF45D1003413D7 /* Project object */;
 }
